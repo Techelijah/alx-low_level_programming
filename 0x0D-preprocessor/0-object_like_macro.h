@@ -1,15 +1,7 @@
-// defines a macro named SIZE as an abbreviation for the token 1024.
-
-
-#include <stdio.h>
+#ifndef OBJECT_LIKE_MACRO_H
+#define OBJECT_LIKE_MACRO_H
 
 #define SIZE 1024
 
-int main() {
-			
-	printf("size is : %d\n", SIZE);
+#endif
 
-
-return 0;
-
-}
