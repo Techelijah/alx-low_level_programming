@@ -1,16 +1,7 @@
-// defines a macro named pi as an abbreviation for the token 3.14159265359.
-
-
-#include <stdio.h>
+#ifndef OBJECT_LIKE_MACRO_H
+#define OBJECT_LIKE_MACRO_H
 
 #define pi 3.14159265359
 
-int main()
-{
-			
-	printf("size is : %f\n", pi);
+#endif
 
-
-	return 0;
-
-}
